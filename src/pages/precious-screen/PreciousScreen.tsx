@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CustomAnimation from "../../components/Animation/CustomAnimation";
 import { emailAnimation } from "../../assets";
 import MessageModal from "../../components/modal/MessageModal";
 const PreciousScreen = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  // const { name } = useParams();
   const navigate = useNavigate();
 
   const name = localStorage.getItem("name");

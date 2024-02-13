@@ -1,8 +1,7 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Anonymous = () => {
-  // const { name } = useParams();
   const navigate = useNavigate();
   const name = localStorage.getItem("name");
   return (

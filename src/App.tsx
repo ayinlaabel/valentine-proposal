@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import WhatIsYourName from "./pages/what-is-your-name/WhatIsYourName";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Anonymous from "./pages/anonymous/Anonymous";
 import PreciousScreen from "./pages/precious-screen/PreciousScreen";
 import CloseScreen from "./pages/close-screen/CloseScreen";
